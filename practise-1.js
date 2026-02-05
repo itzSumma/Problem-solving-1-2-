@@ -1,7 +1,7 @@
 function odsAvarage(numbers){
 let odds = [];
     for ( let number of numbers){
-      
+    //   console.log(number)
         if(number % 2 !== 0){ 
            odds.push(number)
            }
